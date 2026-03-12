@@ -2,14 +2,14 @@
 # AUTHOR: adiovo
 # REPO: https://raw.githubusercontent.com/adiovo/clash-rules/main/rules-providers/private/direct.yaml
 # GH-CDN: https://cdn.jsdelivr.net/gh/adiovo/clash-rules/rules-providers/private/direct.yaml
-# UPDATED: 2025-12-09
+# UPDATED: 2026-03-12
 # DOMAIN: 0
 # DOMAIN-KEYWORD: 0
-# DOMAIN-SUFFIX: 21
+# DOMAIN-SUFFIX: 22
 # IP-CIDR: 0
 # IP-CIDR6: 0
 # PROCESS-NAME: 2
-# TOTAL: 23
+# TOTAL: 24
 payload:
   # 进程匹配 开始 #
   - PROCESS-NAME,ToDesk.exe,🎯 全球直连
@@ -21,6 +21,7 @@ payload:
 
   # 域名匹配代理 开始 #
   - DOMAIN-SUFFIX,adiovo.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,nexconvert.com,🎯 全球直连
   
   - DOMAIN-SUFFIX,gitee.io,🎯 全球直连
   - DOMAIN-SUFFIX,360.cn,🎯 全球直连
